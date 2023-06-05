@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/css/sign.css">
+
+<div class="login-box">
+    <h2>Create Account</h2>
+    <form method="POST" action="/users/create" class="form">
+      <div class="user-box">
+        <input type="Name" name="name" placeholder="Enter name" required>
+      </div>
+      <div class="user-box">
+        <input type="email" name="email" placeholder="Enter email" required>
+      </div>
+
+      <div class="user-box">
+        <input type="password" name="password" placeholder="Enter password" required>
+      </div>
+
+      <div class="user-box">
+        <input type="password" name="confirmPassword" placeholder="Confirm password" required>
+      </div>
+      <button style="background-color: #243b55;">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Sign Up
+      </button>
+    </form>
+    <div class="extra" style="margin-top: 30px;">
+        <a href="/users/forgetPassword"> Forget Password?</a>
+        <a href="/users/sign-in">Already Have an Account?</a>
+    </div>
+  </div> 
